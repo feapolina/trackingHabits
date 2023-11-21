@@ -26,7 +26,7 @@ p {
 
 #contribution-graph {
   display: grid;
-  grid-template-columns: repeat(50, 1fr);
+  grid-template-columns: repeat(70, 1fr);
   gap: 3px;
 }
 
