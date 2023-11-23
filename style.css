@@ -40,6 +40,36 @@ p {
 .contribution-green {
   background-color: #2cbe4e;
 }
-.contribution-grey {
-  background-color: rgb(0, 108, 248);
+.contribution-gray {
+  background-color: #424242;
 }
+
+/*Brilho nas caixinhas ao passar o mouse*/
+.contribution-square {
+  width: 15px;
+  height: 15px;
+  background-color: #424242;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.contribution-square:hover {
+  background-color: #555; 
+}
+
+.contribution-green {
+  background-color: #2cbe4e;
+  box-shadow: 0 0 10px #2cbe4e; 
+}
+
+.contribution-green:hover {
+  background-color: #228c42; 
+}
+
+ /* Tornar os quadradinhos responsivos */
+#contribution-graph {
+  display: flex;
+  flex-wrap: wrap;
+}
+

@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // interatividade com as caixinhas
     square.addEventListener("click", function () {
-      if (contribution) {
+      if (square.classList.contains("contribution-green")) {
         square.classList.remove("contribution-green");
         square.classList.add("contribution-gray");
       } else {
